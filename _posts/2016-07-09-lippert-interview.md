@@ -66,14 +66,14 @@ date: 2016-07-09 19:24:56 +0300
 {% highlight csharp %}
 
 public class A<T> {
-<br><br>public class B : A<int> {
-<br><br><br><br>public void M() { System.Console.WriteLine(typeof(T)); }
-<br><br><br><br>public class C : B { }
-<br><br>}
+    public class B : A<int> {
+        public void M() { System.Console.WriteLine(typeof(T)); }
+        public class C : B { }
+    }
 }
 
 public class P {
-<br><br>public static void Main() { (new A<string>.B.C()).M(); }
+    public static void Main() { (new A<string>.B.C()).M(); }
 }
 
 {% endhighlight %}
