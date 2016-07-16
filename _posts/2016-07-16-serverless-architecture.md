@@ -31,7 +31,7 @@ Serverless - архитектура разработки веб приложен
 git init
 git add .
 git commit -m "init"
-git remote add azure https://bench@r-test-app.scm.azurewebsites.net:443/r-test-app.git
+git remote add azure https://username@r-test-app.scm.azurewebsites.net:443/r-test-app.git
 git push azure master
 
 {% endhighlight %}
