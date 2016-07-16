@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Serverless веб приложение на Azure"
+title: "Serverless приложение на Azure"
 date: 2016-07-16 10:24:56 +0300
 ---
 
