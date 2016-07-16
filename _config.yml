@@ -9,7 +9,7 @@
 title: Размышления программиста
 email: r@kamenskiy.net
 description: > # this means to ignore newlines until "baseurl:"
-  Блог о разработке ПО и всяком таком
+  Блог о разработке ПО, а также всем остальном, что меня интересует
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.kamenskiy.net" # the base hostname & protocol for your site
 twitter_username: r_kamenskiy
