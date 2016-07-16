@@ -3,7 +3,6 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -21,6 +20,17 @@
     &,
     &:visited {
         color: $grey-color-dark;
+    }
+}
+
+.site-header-title{
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -2px;
+    font-style: italic;
+    &:hover {
+        text-decoration: none;
     }
 }
 
@@ -47,7 +57,7 @@
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        #border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
 
