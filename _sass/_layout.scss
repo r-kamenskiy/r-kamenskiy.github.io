@@ -135,6 +135,11 @@
     @extend %clearfix;
 }
 
+.wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;
@@ -191,11 +196,11 @@
 }
 
 .post-list {
-    margin-left: 0;
+    
     list-style: none;
-
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: 40px;
+        border-top: 1px solid #e0e3e9;
     }
 }
 
