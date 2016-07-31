@@ -2,23 +2,30 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading"></h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+<div class="posts">
+{% for post in site.posts %}
+  <div class="post-preview">
+    <div class="post-preview-head">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-preview-head-header">{{ post.title }}</a>
+      <span class="post-priview-head-date">{{ post.date | date: "%b %-d %Y" }}</span>
+    </div>
+    <div class="post-preview-content">
+      <p>
         {{ post.excerpt }}
-        <a href="{{ post.url }}">Читать далее...</a><br>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">Подписаться <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+      </p>
+      <div class="post-preview-footer">
+        <a href="{{ post.url | prepend: site.baseurl }}">Читать далее</a>
+      </div>
+    </div>
+  </div>
+{% endfor %}
 </div>
+
+
+
+
+
+
+
+
+

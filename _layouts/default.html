@@ -7,145 +7,16 @@
     <div class="container-fluid">
         <div class="row">
             <div class="left-panel hidden-xs col-sm-1" >
-                <div class="left-panel-content">
-                    <img src="images/progman.png"></img>
-                    <div class="left-gradient">
-
-                    </div>
-                    <div class="blog-header-block">
-                        <p>Размышления программиста</p>
-                    </div>
-                    <div class="blog-left-subscribe">
-                        <p>Подписаться&nbsp;<a href="#">RSS</a></p>
-                    </div>
-                </div>
+                {% include left-panel.html %}
             </div>
 
             <div class="center-panel col-sm-11 col-md-9 ">
-                <div class="posts">
-                    <div class="post-preview">
-                        <div class="post-preview-head">
-                            <a href="#" class="post-preview-head-header">Serverless приложение на Azure</a>
-                            <span class="post-priview-head-date">Jun 23 2016</span>
-                        </div>
-                        <div class="post-preview-content">
-                            <p>
-                                Этот блог является serverless приложением. Хранится он на github pages, им же и генерируются страницы. И я понятия не имею,
-                                как это все там происходит. Как только происходит push в репозиторий, веб-сервер отдает уже
-                                обновленную страницу. Бонусом идет полная история версий блога. В общем, сплошные плюсы,
-                                но сегодняшний пост не о GitHub pages. Serverless - архитектура разработки веб приложений
-                                (и не только веб), в которой отсутствует сервер, в классическом его понимании. Т.е. это сайт
-                                без бекэнда. Особенно удачно можно применить этот подход, если все необходимые для вашего
-                                приложения API предоставляются какими-то внешними сервисами. Вы делаете всю бизнес логику
-                                на клиенте и остается только найти способ отдать клиенту статический код.
-                            </p>
-                            <div class="post-preview-footer">
-                                <a href="#">Читать далее</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="post-preview">
-                        <div class="post-preview-head">
-                            <a href="#" class="post-preview-head-header">Serverless приложение на Azure</a>
-                            <span class="post-priview-head-date">Jun 23 2016</span>
-                        </div>
-                        <div class="post-preview-content">
-                            <p>
-                                Этот блог является serverless приложением. Хранится он на github pages, им же и генерируются страницы. И я понятия не имею,
-                                как это все там происходит. Как только происходит push в репозиторий, веб-сервер отдает уже
-                                обновленную страницу. Бонусом идет полная история версий блога. В общем, сплошные плюсы,
-                                но сегодняшний пост не о GitHub pages. Serverless - архитектура разработки веб приложений
-                                (и не только веб), в которой отсутствует сервер, в классическом его понимании. Т.е. это сайт
-                                без бекэнда. Особенно удачно можно применить этот подход, если все необходимые для вашего
-                                приложения API предоставляются какими-то внешними сервисами. Вы делаете всю бизнес логику
-                                на клиенте и остается только найти способ отдать клиенту статический код.
-                            </p>
-                            <div class="post-preview-footer">
-                                <a href="#">Читать далее</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post-preview">
-                        <div class="post-preview-head">
-                            <a href="#" class="post-preview-head-header">Serverless приложение на Azure</a>
-                            <span class="post-priview-head-date">Jun 23 2016</span>
-                        </div>
-                        <div class="post-preview-content">
-                            <p>
-                                Этот блог является serverless приложением. Хранится он на github pages, им же и генерируются страницы. И я понятия не имею,
-                                как это все там происходит. Как только происходит push в репозиторий, веб-сервер отдает уже
-                                обновленную страницу. Бонусом идет полная история версий блога. В общем, сплошные плюсы,
-                                но сегодняшний пост не о GitHub pages. Serverless - архитектура разработки веб приложений
-                                (и не только веб), в которой отсутствует сервер, в классическом его понимании. Т.е. это сайт
-                                без бекэнда. Особенно удачно можно применить этот подход, если все необходимые для вашего
-                                приложения API предоставляются какими-то внешними сервисами. Вы делаете всю бизнес логику
-                                на клиенте и остается только найти способ отдать клиенту статический код.
-                            </p>
-                            <div class="post-preview-footer">
-                                <a href="#">Читать далее</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post-preview">
-                        <div class="post-preview-head">
-                            <a href="#" class="post-preview-head-header">Serverless приложение на Azure</a>
-                            <span class="post-priview-head-date">Jun 23 2016</span>
-                        </div>
-                        <div class="post-preview-content">
-                            <p>
-                                Этот блог является serverless приложением. Хранится он на github pages, им же и генерируются страницы. И я понятия не имею,
-                                как это все там происходит. Как только происходит push в репозиторий, веб-сервер отдает уже
-                                обновленную страницу. Бонусом идет полная история версий блога. В общем, сплошные плюсы,
-                                но сегодняшний пост не о GitHub pages. Serverless - архитектура разработки веб приложений
-                                (и не только веб), в которой отсутствует сервер, в классическом его понимании. Т.е. это сайт
-                                без бекэнда. Особенно удачно можно применить этот подход, если все необходимые для вашего
-                                приложения API предоставляются какими-то внешними сервисами. Вы делаете всю бизнес логику
-                                на клиенте и остается только найти способ отдать клиенту статический код.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                {{ content }}
+               
             </div>
 
             <div class="right-panel hidden-xs hidden-sm col-md-2">
-                <div class="right-panel-content">
-                    <div class="right-panel-back">
-                        <div class="right-gradient">
-                        </div>
-                    </div>
-                    <div class="blog-right-new-posts-header">
-                        <p>Новые&nbsp;посты</p>
-                    </div>
-                    <div class="blog-right-new-posts">
-                        <ul>
-                            <li>
-                                <a href="#">Serverless приложение на Azure</a>
-                                <span class="right-post-date">Jul 23, 2016</span>
-                            </li>
-                            <li>
-                                <a href="#">Serverless приложение на Azure</a>
-                                <span class="right-post-date">Jul 23, 2016</span>
-                            </li>
-                            <li>
-                                <a href="#">Serverless приложение на Azure</a>
-                                <span class="right-post-date">Jul 23, 2016</span>
-                            </li>
-                            <li>
-                                <a href="#">Serverless приложение на Azure</a>
-                                <span class="right-post-date">Jul 23, 2016</span>
-                            </li>
-                            <li>
-                                <a href="#">Serverless приложение на Azure</a>
-                                <span class="right-post-date">Jul 23, 2016</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="blog-right-subscribe">
-                        <p>Подписаться&nbsp;<a href="#">RSS</a></p>
-                    </div>
-                </div>
-
+                {% include right-panel.html %}
             </div>
         </div>
     </div>
