@@ -2,7 +2,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -26,9 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -150,13 +148,13 @@ p {
 .post-preview-content{
 	font-size: 20px;
 	margin-top: 10px;
-	line-height: 120%;
+	line-height: 140%;
 	font-family: 'Open Sans', sans-serif !important;
 
 }
 .post-content{
 	font-size: 20px;
-	line-height: 120%;
+	line-height: 140%;
 	font-family: 'Open Sans', sans-serif !important;
 }
 .post-preview-content .post-p{
@@ -192,6 +190,9 @@ p {
 
 .right-panel{
     padding-right: 0;
+}
+.right-panel ul li{
+	list-style: none !important;
 }
 .right-panel-content{
 	float:right;
@@ -258,9 +259,19 @@ p {
 /* Post */
 
 .post{
+	margin: 90px 10px 10px 10px;
 }
 
 .post-header{
 	font-size: 26px;
 	font-weight: bold;
+	min-height: 80px;
+}
+.post-header .post-title{
+	padding-top: 10px;
+}
+
+.post-date{
+	float: right;
+	top: -70px;
 }
