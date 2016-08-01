@@ -8,26 +8,12 @@
 	</div>
 	<div class="blog-right-new-posts">
 		<ul>
+		{% for post in site.posts %}
 			<li>
-				<a href="#">Serverless приложение на Azure</a>
-				<span class="right-post-date">Jul 23, 2016</span>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				<span class="right-post-date">{{ post.date | date: "%b %-d %Y" }}</span>
 			</li>
-			<li>
-				<a href="#">Serverless приложение на Azure</a>
-				<span class="right-post-date">Jul 23, 2016</span>
-			</li>
-			<li>
-				<a href="#">Serverless приложение на Azure</a>
-				<span class="right-post-date">Jul 23, 2016</span>
-			</li>
-			<li>
-				<a href="#">Serverless приложение на Azure</a>
-				<span class="right-post-date">Jul 23, 2016</span>
-			</li>
-			<li>
-				<a href="#">Serverless приложение на Azure</a>
-				<span class="right-post-date">Jul 23, 2016</span>
-			</li>
+		{% endfor %}
 		</ul>
 	</div>
 	<div class="blog-right-subscribe">

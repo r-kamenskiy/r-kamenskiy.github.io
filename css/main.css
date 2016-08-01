@@ -108,6 +108,10 @@ p {
 }
 
 /* Center */
+.center-panel{
+	padding: 0 40px 0 55px;
+}
+
 .posts{
 	display: flex;
 	justify-content: space-around;
@@ -254,7 +258,6 @@ p {
 /* Post */
 
 .post{
-	margin: 110px 40px 0px 60px;
 }
 
 .post-header{
