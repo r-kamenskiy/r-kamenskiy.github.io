@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign mod = site.posts | size | modulo: 2 %}
 
 <div class="posts">
 {% for post in site.posts %}
@@ -17,9 +18,23 @@ layout: default
         <a href="{{ post.url | prepend: site.baseurl }}">Читать далее</a>
       </div>
     </div>
-    
   </div>
 {% endfor %}
+{% if mod == 1 %}
+  <div class="post-preview" style="visibility: hidden;">
+      <div class="post-preview-head">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-preview-head-header"></a>
+        <span class="post-priview-head-date"></span>
+      </div>
+      <div class="post-preview-content">
+        <div class="post-p"> </div>
+        <div class="post-preview-footer">
+          <a href="#">Читать далее</a>
+        </div>
+      </div>
+    </div>
+{% endif %}
+
 </div>
 
 
