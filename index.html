@@ -10,13 +10,14 @@ layout: default
       <span class="post-priview-head-date">{{ post.date | date: "%b %-d %Y" }}</span>
     </div>
     <div class="post-preview-content">
-      <p>
+      <div class="post-p">
         {{ post.excerpt }}
-      </p>
+      </div>
       <div class="post-preview-footer">
         <a href="{{ post.url | prepend: site.baseurl }}">Читать далее</a>
       </div>
     </div>
+    
   </div>
 {% endfor %}
 </div>
