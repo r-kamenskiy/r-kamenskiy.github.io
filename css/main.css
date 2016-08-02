@@ -42,10 +42,31 @@ table {
 body{
 	font-family: 'Comfortaa', cursive !important;
 }
+img{
+	width: 100%;
+}
 /*---------------------------*/
 p {
   margin-top: 0em;
   margin-bottom: 1em;
+}
+
+/* Media */
+
+@media (max-width: 1400px) {
+	.post-preview{
+		width: 80%;
+  	}
+}
+@media (max-width: 1745px) and (min-width: 1400px){
+	.post-preview{
+		width: 100%;
+  	}
+}
+@media (min-width: 1745px) {
+	.post-preview{
+		width: 600px;
+  	}
 }
 /*  Left lanel */
 
@@ -74,8 +95,9 @@ p {
 	left: 5px;
 	top: 15px;
 	background:rgba(177, 237, 63, 0.7);
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: bold;
+	z-index:10;
 }
 
 .blog-header-block p{
@@ -118,7 +140,6 @@ p {
 }
 
 .post-preview{
-	width: 600px;
 	margin-bottom: 50px;
 }
 
