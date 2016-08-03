@@ -11,7 +11,6 @@ $( document ).ready(function() {
     	if(btn.hasClass("fa-arrow-right")){
     		$(".copyright").show();
     		$(".social-detail").show();
-    		$(".social-link").toggleClass("social-link-expanded");
 
     		btn.removeClass("fa-arrow-right");
     		btn.addClass("fa-arrow-left");
