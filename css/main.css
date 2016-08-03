@@ -68,6 +68,13 @@ p {
 		width: 600px;
   	}
 }
+/* Collapse button*/
+.left-panel-collapse-btn{
+	 position: absolute;
+	 right: 0;
+	 top: 300px;
+}
+
 /*  Left lanel */
 
 .left-panel{
@@ -80,6 +87,12 @@ p {
 	background-image: url('../images/back.jpg');
 	background-size: 500px;
 	height: 100%;
+
+	transition: width 2s;
+}
+
+.wide{
+	width: 260px;
 }
 .left-panel-content img{
 	position: absolute;
