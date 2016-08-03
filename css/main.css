@@ -75,14 +75,16 @@ p {
 	top: 300px;
 	background-color: #188544;
 	color: #bdd670;
-	border: 2px solid;
+	border: 5px solid;
     border-radius: 5px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     opacity: 0.9;
     outline: 0;
 }
+
 /*  Left lanel */
+
 
 .left-panel{
     padding-left: 0 !important;
@@ -129,11 +131,14 @@ p {
 }
 .blog-left-subscribe{
 	position: absolute;
-	left: 10px;
+	right: -20px;
 	top: 400px;
 	background:rgba(242, 235, 120, 0.7);
 	font-size: 14px;
 	z-index: 999;
+}
+.blog-left-subscribe-expanded{
+	
 }
 .blog-left-subscribe p{
 	margin: 10px 10px 10px 15px;
