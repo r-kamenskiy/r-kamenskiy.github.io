@@ -183,6 +183,7 @@ p {
 	left: 45%;
 	transition: 0.5s;
 	overflow: hidden;
+	padding: 5px; 
     white-space: nowrap;
 }
 .social-link-expanded{
@@ -192,11 +193,11 @@ p {
 	position: absolute;
 	top: 470px;
 }
-.a-fa-envelope-o:after{
-}
+
 .fa-envelope-o:before {
     position: relative;
     left: -1px;
+    top: -1px;
 }
 .a-fa-github{
 	position: absolute;
