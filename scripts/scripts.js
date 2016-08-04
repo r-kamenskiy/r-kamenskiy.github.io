@@ -8,6 +8,7 @@ $( document ).ready(function() {
     	$(".left-panel").toggleClass("left-panel-expanded");
     	$(".social-link").toggleClass("social-link-expanded");
         $(".center-panel").toggleClass("content-expanded");
+        $(".progman").toggleClass("progman-expanded");
 
     	if(btn.hasClass("fa-arrow-right")){
     		$(".copyright").show();
