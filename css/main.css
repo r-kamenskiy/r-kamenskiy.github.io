@@ -91,6 +91,10 @@ p {
 
 .left-panel{
     padding-left: 0 !important;
+    height: 600px;
+    float: left;
+    width:130px;
+    margin-right: 50px;
 }
 .left-panel-content{
 	height: 100%;
@@ -295,6 +299,10 @@ p {
 
 .right-panel{
     padding-right: 0;
+    height: 600px;
+    float: right;
+    width: 230px;
+    margin-left: 50px;
 }
 .right-panel ul li{
 	list-style: none !important;
