@@ -379,8 +379,13 @@ p {
 
 /* Post */
 
-.post{
-	}
+.post-p img{
+	margin:20px;
+}
+
+.post-content img{
+	margin:20px;
+}
 
 .post-header{
 	font-size: 26px;
